@@ -9,30 +9,25 @@ export const MountainIcon = (props: React.SVGProps<SVGSVGElement>) => (
     className={cn("transition-all duration-300 ease-in-out group-hover:drop-shadow-lg", props.className)}
   >
     <g>
+      {/* Mountain Base (Brown) */}
       <path
-        d="M33.33,99.93l-12.2-24.4a8.33,8.33,0,0,1,1.1-9.2L50,25,77.77,66.33a8.33,8.33,0,0,1,1.1,9.2l-12.2,24.4"
-        className="fill-current"
+        d="M50,25,22.23,75.53,1.12,99.93h97.76L77.77,75.53,50,25Z"
+        className="fill-[#A16207]" 
       />
+      {/* Mountain Shading */}
       <path
         d="M50,25,66.67,58.33,77.77,66.33,50,25Z"
-        className="fill-current opacity-60"
+        className="fill-[#854d0e] opacity-60"
       />
       <path
         d="M22.23,75.53,50,25,33.33,58.33,22.23,75.53Z"
-        className="fill-current opacity-60"
+        className="fill-[#854d0e] opacity-60"
       />
+      
+      {/* Snowy Cap (White) */}
       <path
-        d="M63.33,45,50,25,50,25l13.33,20Z"
-        className="fill-current opacity-40"
-      />
-      <path d="M50,25,36.67,45,50,25Z" className="fill-current opacity-40" />
-      <path
-        d="M50,25,22.23,75.53,1.12,99.93H33.33l12.2-24.4,4.47-8.87Z"
-        className="fill-current opacity-20"
-      />
-      <path
-        d="M50,25l-4.47,20.53L33.33,58.33,22.23,75.53,1.12,99.93h97.76L77.77,75.53,66.67,58.33,54.47,45.53Z"
-        className="fill-current opacity-80"
+        d="M50,25L33.33,58.33,22.23,75.53,33.33,99.93l12.2-24.4,4.47-8.87Z"
+        className="fill-white opacity-20"
       />
       <path
         d="M50,25,33.33,58.33,22.23,75.53,1.12,99.93h97.76L77.77,75.53,66.67,58.33,50,25Z"
@@ -53,10 +48,6 @@ export const MountainIcon = (props: React.SVGProps<SVGSVGElement>) => (
       <path
         d="M50,25,50,51.67,41.67,55,50,25Z"
         className="fill-white opacity-40"
-      />
-      <path
-        d="M50,25,33.33,58.33,22.23,75.53,33.33,99.93l12.2-24.4,4.47-8.87Z"
-        className="fill-white opacity-20"
       />
     </g>
   </svg>
