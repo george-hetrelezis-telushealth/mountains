@@ -2,7 +2,7 @@
   "name": "nextn",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://<your-github-username>.github.io/<your-repo-name>",
+  "homepage": "https://george-hetrelezis-telushealth.github.io/mountains/",
   "scripts": {
     "dev": "next dev --turbopack -p 9002",
     "genkit:dev": "genkit start -- tsx src/ai/dev.ts",
@@ -11,7 +11,7 @@
     "start": "next start",
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
-    "predeploy": "next build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d out"
   },
   "dependencies": {
