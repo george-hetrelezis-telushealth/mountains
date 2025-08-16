@@ -7,7 +7,7 @@ export default function Home() {
   const maxHeight = sortedMountains[0]?.height || 1;
 
   return (
-    <main className="flex min-h-screen w-full flex-col items-center justify-center p-4 overflow-hidden">
+    <main className="flex min-h-screen w-full flex-col items-center justify-center p-4 overflow-hidden bg-background">
       <div className="w-full max-w-7xl">
         <header className="text-center mb-12">
           <h1 className="text-4xl font-bold tracking-tighter text-foreground sm:text-5xl md:text-6xl font-headline">
